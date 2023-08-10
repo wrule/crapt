@@ -4,11 +4,14 @@ import { Home } from './views/home';
 
 function App() {
   return (
-    <ConfigProvider theme={{
-      token: {
-        borderRadius: 0,
-      },
-    }}>
+    <ConfigProvider
+      componentSize="small"
+      theme={{
+        token: {
+          borderRadius: 0,
+          colorPrimary: 'black',
+        },
+      }}>
       <div className="App">
         <Home />
       </div>
