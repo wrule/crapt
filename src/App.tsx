@@ -13,8 +13,8 @@ function App() {
           borderRadius: 0,
         },
       }}>
-      <Layout className="app">
-        <Header className="header">1</Header>
+      <Layout className="App">
+        <Header className="Header">1</Header>
         <Content>
           <Home />
         </Content>
