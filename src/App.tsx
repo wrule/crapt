@@ -7,7 +7,6 @@ const { Header, Content } = Layout;
 function App() {
   return (
     <ConfigProvider
-      componentSize="small"
       theme={{
         token: {
           borderRadius: 0,
