@@ -1,9 +1,10 @@
 import './App.scss';
+import { Home } from './views/home';
 
 function App() {
   return (
     <div className="App">
-      <h1>你好，世界</h1>
+      <Home />
     </div>
   );
 }
