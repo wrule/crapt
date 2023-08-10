@@ -9,7 +9,6 @@ function App() {
       theme={{
         token: {
           borderRadius: 0,
-          colorPrimary: 'black',
         },
       }}>
       <div className="App">
