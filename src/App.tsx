@@ -1,6 +1,8 @@
-import { ConfigProvider } from 'antd';
+import { ConfigProvider, Layout } from 'antd';
 import './App.scss';
 import { Home } from './views/home';
+
+const { Header, Content } = Layout;
 
 function App() {
   return (
@@ -11,9 +13,12 @@ function App() {
           borderRadius: 0,
         },
       }}>
-      <div className="App">
-        <Home />
-      </div>
+      <Layout className="app">
+        <Header className="header">1</Header>
+        <Content>
+          <Home />
+        </Content>
+      </Layout>
     </ConfigProvider>
   );
 }

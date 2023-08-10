@@ -7,6 +7,18 @@ function Home() {
     <Row>
       <Button type="primary">你好，世界</Button>
     </Row>
+    {/* <Table />
+    <Row>
+      <Button type="primary">你好，世界</Button>
+    </Row>
     <Table />
+    <Row>
+      <Button type="primary">你好，世界</Button>
+    </Row>
+    <Table />
+    <Row>
+      <Button type="primary">你好，世界</Button>
+    </Row>
+    <Table /> */}
   </div>;
 }
