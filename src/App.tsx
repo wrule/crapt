@@ -1,11 +1,18 @@
+import { ConfigProvider } from 'antd';
 import './App.scss';
 import { Home } from './views/home';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <ConfigProvider theme={{
+      token: {
+        borderRadius: 0,
+      },
+    }}>
+      <div className="App">
+        <Home />
+      </div>
+    </ConfigProvider>
   );
 }
 
