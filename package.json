@@ -41,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "global-agent": "^3.0.0",
+    "ts-node": "^10.9.1"
   }
 }
