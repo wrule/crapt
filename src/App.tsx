@@ -15,7 +15,7 @@ function App() {
       }}>
       <Layout className="App">
         <Header className="Header">1</Header>
-        <Content>
+        <Content className="Content">
           <Home />
         </Content>
       </Layout>
