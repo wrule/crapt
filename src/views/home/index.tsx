@@ -1,6 +1,7 @@
 import { Button, Row } from 'antd';
 import style from './index.module.scss';
 import a from './a.module.less';
+import '@/App.scss';
 
 export
 function Home() {
