@@ -11,5 +11,8 @@ function Home() {
     <Row>
       <span className={a.color}>你好，世界</span>
     </Row>
+    <Row>
+      <span className={style.com}>你好，世界</span>
+    </Row>
   </div>;
 }
